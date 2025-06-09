@@ -10,7 +10,7 @@
     "prettier": "prettier --write src/styles/*.scss && prettier --write \"src/dist/styles.css\"",
     "lint": "stylelint ./src/styles/*.scss --fix && stylelint ./src/styles/*.scss",
     "permission-installer": "chmod +x ./node_modules/.bin/purgecss && chmod +x ./node_modules/.bin/prettier",
-    "prod": "npm run permission-installer && npm run lint && npm run compile:sass && npm run postcss && npm run unused && npm run prettier && npm run minify"
+    "prod": "npm run permission-installer && npm run lint && npm run compile && npm run postcss && npm run unused && npm run prettier && npm run minify"
   },
   "devDependencies": {
     "@babel/core": "^7.23.5",

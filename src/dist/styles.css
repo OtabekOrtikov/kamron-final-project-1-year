@@ -153,6 +153,7 @@ button {
 }
 .header-nav--burger label .burger-line {
   background-color: #fff;
+  display: block;
   height: 3px;
   transition: transform 0.3s ease;
   width: 100%;
@@ -402,4 +403,3 @@ button {
     order: 3;
   }
 }
-/*# sourceMappingURL=styles.css.map */

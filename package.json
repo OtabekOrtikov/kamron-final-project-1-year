@@ -1,0 +1,17 @@
+{
+  "name": "kamron-final-project-1-year",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "sass --watch src/styles/styles.scss:src/dist/styles.css --no-source-map",
+    "compile": "sass scss:css --style compressed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "sass": "^1.89.1"
+  }
+}

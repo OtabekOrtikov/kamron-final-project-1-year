@@ -1,0 +1,56 @@
+@use "./kit/variables" as *;
+@use "./kit/mixins" as *;
+@use "./kit/fonts" as *;
+
+.footer {
+  padding: 45px 0 50px;
+  width: 100%;
+  height: auto;
+  background: $gradient-color;
+
+  &-nav {
+    @include flexbox(row, space-between, flex-end);
+  }
+
+  &-address {
+    max-width: 242px;
+    width: 100%;
+    &--item {
+      color: #fff;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 19px; /* 118.75% */
+
+      &:first-child {
+        margin-bottom: 25px;
+      }
+    }
+  }
+
+  &-logo {
+    img {
+      width: 110px;
+      height: auto;
+      margin-bottom: 20px;
+    }
+
+    p {
+      color: #fff;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 16px; /* 88.889% */
+      letter-spacing: 3.6px;
+      text-transform: uppercase;
+    }
+  }
+
+  &-copy {
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px; /* 118.75% */
+  }
+}

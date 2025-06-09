@@ -1,0 +1,56 @@
+@use "./kit/variables" as *;
+@use "./kit/mixins" as *;
+
+.learn {
+  width: 100%;
+  height: auto;
+  padding: 60px 40px;
+  text-align: center;
+  background-image: url("../assets/learn.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+
+  &--title {
+    color: #fff;
+    text-align: center;
+    font-family: Oswald;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px; /* 133.333% */
+    margin-bottom: 80px;
+  }
+
+  &--btn {
+    font-size: 52px;
+    width: 145px;
+    height: 145px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: $primary-color;
+    margin: 0 auto 100px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    @include flexbox(column, center, center);
+
+    &:hover {
+      background-color: $primary-color;
+      color: #fff;
+    }
+  }
+
+  &--subtitle {
+    color: #fff;
+    text-align: center;
+    font-family: "Source Sans Pro";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 133.333% */
+    max-width: 520px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}

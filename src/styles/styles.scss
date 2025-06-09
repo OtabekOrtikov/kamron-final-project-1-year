@@ -1,0 +1,20 @@
+@use "./kit/variables" as *;
+@use "./kit/globals" as *;
+@use "./kit/fonts" as *;
+@use "./kit/mixins" as *;
+
+
+// header styles
+@use "./header.scss" as *;
+
+// main content styles
+@use "./content.scss" as *;
+
+// learn section styles
+@use "./learn-more.scss" as *;
+
+// footer styles
+@use "./footer.scss" as *;
+
+// media queries
+@use "./mobile.scss" as *;

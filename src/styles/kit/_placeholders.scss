@@ -1,0 +1,21 @@
+%logo-animation {
+  animation: logo-animation 3s ease-in-out infinite;
+}
+
+@keyframes logo-animation {
+  from {
+    transform: rotateY(0) scale(1);
+  }
+  25% {
+    transform: rotateY(0) scale(1);
+  }
+  50% {
+    transform: rotateY(180deg) scale(1.2);
+  }
+  75% {
+    transform: rotateY(180deg) scale(1.2);
+  }
+  to {
+    transform: rotateY(360deg) scale(1);
+  }
+}

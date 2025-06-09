@@ -1,24 +1,24 @@
 @media screen and (max-width: 768px) {
   .footer {
     &-nav {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 40px;
-        text-align: center;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 40px;
+      text-align: center;
     }
 
     &-logo {
-        order: 1;
+      order: 1;
     }
 
     &-address {
-        order: 2;
-        margin: 0 auto;
+      order: 2;
+      margin: 0 auto;
     }
 
     &-copy {
-        order: 3;
+      order: 3;
     }
   }
 }

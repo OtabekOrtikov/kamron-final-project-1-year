@@ -1,12 +1,12 @@
-@use "./kit/variables" as *;
-@use "./kit/mixins" as *;
+@use './kit/variables' as *;
+@use './kit/mixins' as *;
 
 .learn {
   width: 100%;
   height: auto;
   padding: 60px 40px;
   text-align: center;
-  background-image: url("../assets/learn.jpg");
+  background-image: url('../assets/learn.jpg');
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -44,7 +44,7 @@
   &--subtitle {
     color: #fff;
     text-align: center;
-    font-family: "Source Sans Pro";
+    font-family: 'Source Sans Pro';
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
